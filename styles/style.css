@@ -83,6 +83,23 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
+
+.apresentacao__conteudo_certificacoes {
+    display: flex;
+    flex-direction:column;
+    gap: 25px;}
+
+.apresentacao__conteudo__titulo_certificacoes {
+    font-size: 2.15rem;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto_summary_certificacoes {
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+}
+
+
 .apresentacao__links__link:hover {
     background-color: var(--cor-hover);
 }
